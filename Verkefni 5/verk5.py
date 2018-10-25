@@ -29,5 +29,5 @@ def static_skrar(skra):
         return static_file(skra, root='./static/')
 
 
-#run(host="0.0.0.0", port=os.environ.get('PORT'))
-run(debug=True)
+run(host="0.0.0.0", port=os.environ.get('PORT'))
+#run(debug=True)
